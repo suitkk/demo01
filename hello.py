@@ -59,4 +59,3 @@ while(con):
         res = game1.charge(right, answer)
         print("我出的是：%s\n你出的是：%s\n%s" % (right, answer, res))
 print("下次再来！")
-print("下次再来！")
