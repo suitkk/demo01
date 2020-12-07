@@ -58,4 +58,4 @@ while(con):
         right = random.choice(l2)
         res = game1.charge(right, answer)
         print("我出的是：%s\n你出的是：%s\n%s" % (right, answer, res))
-print("下次再来！")
+print("下次再来刚刚！")
