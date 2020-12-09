@@ -50,3 +50,4 @@ while count<5:
 else:
     print("%d不小于5"%count)
 '''在python里面while可以和else搭配使用'''
+print("欢迎quietkk加入")
