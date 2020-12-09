@@ -1,6 +1,6 @@
 #-*- codeing = utf-8 -*-
 #@Time : 2020/12/4 下午 04:36
-#@File : game1.py
+#@File : Game1.py
 #@Softwore : PyCharm
 
 def charge(a,b):

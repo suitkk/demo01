@@ -1,9 +1,9 @@
 #-*- codeing = utf-8 -*-
 #@Time : 2020/12/4 上午 11:39
-#@File : hello.py
+#@File : Hello.py
 #@Softwore : PyCharm
 import  random
-import game1
+import Game1
 #这是单行注释
 print("hello")
 '''
@@ -56,6 +56,6 @@ while(con):
     else:
         answer = l2[an - 1]
         right = random.choice(l2)
-        res = game1.charge(right, answer)
+        res = Game1.charge(right, answer)
         print("我出的是：%s\n你出的是：%s\n%s" % (right, answer, res))
 print("非常感谢！下次再来！")

@@ -1,11 +1,11 @@
 #-*- codeing = utf-8 -*-
 #@Time : 2020/12/8 下午 02:16
-#@File : string.py
+#@File : String.py
 #@Softwore : PyCharm
 #字符串的方法都不会改变原字符串，若需要改变后的值，则需要重新赋值
 
 import math
-import string
+import String
 from math import pi
 
 '''
