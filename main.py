@@ -132,16 +132,16 @@ def main():
 
         # 画蛇身 / 每一步+1分
         if not isdead:
-            scores += 1
+            #scores += 1
             snake.move()
         for rect in snake.body:
-            pygame.draw.rect(screen, (20, 220, 39), rect, 0)
+            pygame.draw.rect(screen, (255, 182, 193), rect, 0)
 
         # 显示死亡文字
         isdead = snake.isdead()
         if isdead:
             show_text(screen, (100, 200), 'YOU DEAD!', (227, 29, 18), False, 100)
-            show_text(screen, (150, 260), 'press space to try again...', (0, 0, 22), False, 30)
+            show_text(screen, (150, 260), 'Press space to try again...', (0, 0, 22), False, 30)
 
         # 食物处理 / 吃到+50分
         # 当食物rect与蛇头重合,吃掉 -> Snake增加一个Node
@@ -152,13 +152,13 @@ def main():
 
         # 食物投递
         food.set()
-        pygame.draw.rect(screen, (136, 0, 21), food.rect, 0)
+        pygame.draw.rect(screen, (240, 128, 128), food.rect, 0)
 
         # 显示分数文字
-        show_text(screen, (50, 500), 'Scores: ' + str(scores), (223, 223, 223))
+        show_text(screen, (20, 550), 'Scores: ' + str(scores), (223, 223, 223))
 
         pygame.display.update()
-        clock.tick(10)
+        clock.tick(5)
 
 
 if __name__ == '__main__':
